@@ -1,6 +1,7 @@
 site_name: Koemoe
 site_url: https://condense.moe/
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_url: https://github.com/mcgrizzz/Koemoe
+repo_name: mcgrizzz/Koemoe
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -35,6 +36,8 @@ theme:
   custom_dir: overrides
   favicon: images/favicon.png
   logo: images/logo.png
+  icon:
+    repo: fontawesome/brands/github-alt
   features:
     - navigation.instant
     - navigation.tabs

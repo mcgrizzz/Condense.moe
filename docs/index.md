@@ -1,7 +1,11 @@
 # Home
-![Koemoe](images/Koemoe.gif){ width=65% }
+    
 ### Easily create audio for passive input
-Condense anime audio into just the dialogue, optionally including OP and ED, without needing to find or sync any subtitles.
+Condense anime audio into just the dialogue. Optionally include the OP and ED. No need to find or sync any subtitles.
+!!! terminal "<br/>"
+    <figure markdown="span">
+        ![Koemoe](images/Koemoe.gif)
+    </figure>
 
 ## Features
 
