@@ -1,5 +1,5 @@
 site_name: Koemoe
-site_url: https://mydomain.org/Koemoe
+site_url: https://condense.moe/
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -54,4 +54,5 @@ theme:
 nav:
   - Home: index.md
   - Installation: installation.md
+  - Usage: usage.md
   - Guides: guides.md

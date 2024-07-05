@@ -9,7 +9,6 @@ Condense anime audio into just the dialogue, optionally including OP and ED, wit
 * Input a single video or a folder of videos
 * Uses ML model based on the [YOHO paper](https://arxiv.org/abs/2109.00962) with a [convnext](https://arxiv.org/abs/2201.03545) backbone
 
-
 ## Planned Updates
 * Automatic Model Updates on Startup
 * Options to change some of the model output filtering and smoothing such as the threshold and padding values
