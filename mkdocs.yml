@@ -1,5 +1,6 @@
 site_name: Koemoe
 site_url: https://condense.moe/
+repo_url: https://github.com/squidfunk/mkdocs-material
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -27,18 +28,24 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
+  custom_dir: overrides
+  favicon: images/favicon.png
+  logo: images/logo.png
   features:
     - navigation.instant
     - navigation.tabs
-    - navigation.tabs.sticky
     - toc.integrate
     - navigation.top
     - navigation.footer
   palette: 
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: red
+      accent: red
       toggle:
         icon: material/brightness-1 
         name: Switch to dark mode

@@ -1,0 +1,8 @@
+div.announcement {
+    padding: 7px 10px; 
+    border-radius: 10px; 
+    background-color: #ef55523d; 
+    outline-width: 1px; 
+    outline-style: solid;
+    outline-color:  #ff0400
+}
