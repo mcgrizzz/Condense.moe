@@ -26,6 +26,7 @@ cd './Koemoe'
 
 === "Conda"
     Download and install **[miniconda](https://docs.anaconda.com/miniconda/)**
+    
     In the main directory of `Koemoe` run the following commands
     === "CUDA"
         ``` { .bash .copy }
