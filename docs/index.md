@@ -16,6 +16,7 @@ Condense anime audio into just the dialogue. Optionally include the OP and ED. N
 
 ## Planned Updates
 * Automatic Model Updates on Startup
+* Remove Fastai requirement for running the model
 * Options to change some of the model output filtering and smoothing such as the threshold and padding values
 
 ## Caveats

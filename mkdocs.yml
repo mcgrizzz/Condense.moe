@@ -38,6 +38,7 @@ theme:
   logo: images/logo.png
   icon:
     repo: fontawesome/brands/github-alt
+    annotation: material/star-four-points-circle
   features:
     - navigation.instant
     - navigation.tabs

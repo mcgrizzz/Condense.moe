@@ -6,7 +6,7 @@ This is useful for when you have a video file with embedded subtitles but they a
 #### 1. Extracting
 Extract the image-based subtitles from the video file into a new file called `subtitles.sup`
 ``` { .bash .copy }
-ffmpeg -i '.\video.mkv' -map 0:s:1 -c copy subtitles.sup
+ffmpeg -i '.\video.mkv' -map 0:s:1 -c copy 'subtitles.sup'
 ```
 !!! note inline end "You may need to choose a different subtitle index"
 *  Here we take an input file, marked by ==-i .\video.mkv==
